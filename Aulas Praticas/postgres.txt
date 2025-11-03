@@ -1,0 +1,14 @@
+CREATE TABLE Aluno (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255),
+    idade INT,
+    email VARCHAR(255),
+    nacionalidade VARCHAR(100)
+);
+
+INSERT INTO Aluno (nome, idade, email, nacionalidade)
+VALUES
+('Maysa SOares dos Santos', 20, 'maysa.s.santos6@aluno.senai.br', 'Brasileira');
+
+
+SELECT * FROM Aluno;
